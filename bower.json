@@ -1,0 +1,24 @@
+{
+  "name": "design-boilerplate",
+  "version": "1.0.0",
+  "homepage": "https://github.com/iulogy/design-boilerplate",
+  "authors": [
+    "iulogy"
+  ],
+  "main": "app.js",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~2.1.0",
+    "bootstrap": "~3.1.1",
+    "bootstrap-rtl": "~0.9.16",
+    "bootstrap-switch": "~3.0.0",
+    "bootstrap-wysihtml5": "*"
+  }
+}

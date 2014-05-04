@@ -1,0 +1,8 @@
+{
+	"db_path":"mongodb://127.0.0.1:27017/test",
+	"fb":{
+		"client_id":"xxx",
+		"secret":"xxx",
+		"callback":"xxx"
+	}
+}
