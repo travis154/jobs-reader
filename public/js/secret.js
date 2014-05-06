@@ -6,7 +6,7 @@ $(function(){
 		if(!object){
 			return;
 		}
-		$.getJSON("http://localhost:7001/sources/" + object, function(res){
+		$.getJSON("http://api.iulogy.com/sources/" + object, function(res){
 			$("#put").html('');
 			var res = {
 				content:build(res)

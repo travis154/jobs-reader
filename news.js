@@ -45,13 +45,13 @@ app.use(function(req, res, next){
 	next();
 });	
 app.use(jade_browser('/templates.js', '**', {root: __dirname + '/views/components/', noCache:true})); 
-app.use(compress({
+/*app.use(compress({
         filter: function (req, res) {
           return /json|text|javascript|css/.test(res.getHeader('Content-Type'))
         },
         level: 9
       }));
-
+*/
 
 
 app.use('/', routes);
