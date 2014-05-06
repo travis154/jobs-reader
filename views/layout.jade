@@ -5,24 +5,22 @@ html
 		title News
 		//link(href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,400,300,600,700', rel='stylesheet', type='text/css')
 		link(rel='stylesheet', href='/bootstrap/dist/css/bootstrap.min.css')
-		link(rel='stylesheet', href='/bootstrap-rtl/dist/css/bootstrap-rtl.min.css')
 		link(rel='stylesheet', href='/css/app.css')
 		script(src='/jquery/dist/jquery.min.js')
+		script(src='/templates.js')
 		script(src='/js/secret.js')
 		//script setTimeout(function(){window.location = window.location},1000);
 	body
 		header
 			section.container
-				section
-					a(href='/auth/facebook') ލޮގިން
 				section.row
 					section.col-md-4
-						h1 ޚަބަރު 
+						h1 Object Browser 
 
-						ul.menu.menu-dv.list-inline.list-unstyled
+						ul.menu.list-inline.list-unstyled
 							li
-								a(href="") ޚަބަރު
+								a(href="#", data-object="news").load-object Maldives News
 							li
-								a(href="") ރިޕޯޓް
+								a(href="#", data-object="worldnews").load-object World News
 
 		block body
