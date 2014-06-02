@@ -1,0 +1,9 @@
+div
+	-each source in content
+		-each item in source
+			div.col-md-6.news-el.news-el-3.dv
+				a
+					h3!=item.headlines
+				-if(item.image)
+					img.img-responsive(src=item.image)
+				p!=item.description
